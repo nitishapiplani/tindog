@@ -1,0 +1,147 @@
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff ;
+    padding-bottom: 50px;
+}
+#heading{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;    
+    padding: 50px 50px 50px 150px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-Bold";
+}
+.first_img{
+    transform: rotate(20deg);
+    width: 25%;
+    position: absolute;
+    margin-top: 70px;
+    right: 30%;
+}
+@media (max-width:1028px) {
+    #heading{
+        text-align: center;
+    }
+    #title{
+        text-align: center;
+    }
+    .first_img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+@media (min-width:946px){
+    .first_img{
+        padding-left: 150pxpx;
+    }
+}
+/* navigation bar */
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+h1{
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+    
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;;
+}
+/* features */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* Testimonials  */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+    margin-top: 40px;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-control-next{
+    margin-left: 20px;
+}
+/* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+#cta{
+    background-color: #ff4c68;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Montserrat-Black';
+    color: #fff;
+    height: 60%;
+}
+#true-love{
+    padding: 50px 50px 50px 40px;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.5;
+}
+#footer{
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+}
+.ican{
+    margin: 20px 10px;
+}
+.pricing-text{
+    font-size: 3rem;
+}
